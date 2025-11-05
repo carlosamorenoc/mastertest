@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="company" translate="label" sortOrder="10">
+            <label>Company</label>
+        </tab>
+        
+        <section id="Company_PricingAdjust" translate="label" sortOrder="900" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Pricing Adjustments</label>
+            <tab>company</tab>
+            <resource>Company_PricingAdjust::config</resource>
+
+            <group id="pricing_adjustments" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Pricing Adjustments</label>
+
+                <field id="markup_percentage" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Markup Percentage</label>
+                    <comment>Enter a percentage to increase product prices (e.g., 10 = 10%)</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
