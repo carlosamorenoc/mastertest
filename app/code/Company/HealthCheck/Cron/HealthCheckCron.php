@@ -27,7 +27,7 @@ class HealthCheckCron extends Command
      * {@inheritdoc}
      */
     protected function configure() {
-        $this->setName('inter:healthcheck:run')
+        $this->setName('company:healthcheck:run')
                 ->setDescription('Ejecuta el chequeo de salud');
         parent::configure();
     }

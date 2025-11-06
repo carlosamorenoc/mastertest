@@ -6,7 +6,7 @@ Este repositorio contiene los siguientes módulos personalizados para **Magento 
 1. **Company_HealthCheck**  
    - Proporciona un endpoint de verificación de salud del sistema.  
    - Permite verificar la versión de Magento, PHP y la conexión con la base de datos.  
-   - Incluye un comando CLI (`bin/magento company:health:check`).
+   - Incluye un comando CLI (`bin/magento company:healthcheck:run`).
 
 2. **Company_PricingAdjust**  
    - Permite aplicar un **incremento porcentual** sobre los precios de los productos.  
