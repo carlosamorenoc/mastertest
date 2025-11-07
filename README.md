@@ -55,7 +55,7 @@ Evidencias módulo Pricing Adjust
 
 Evidencia valor del producto:
 
-![Evidencia Valor del producto](docs/images/original_product.png)
+![Evidencia Valor del producto](docs/images/product_value.png)
 
 Configuración de markup
 
