@@ -42,3 +42,25 @@ bin/magento setup:upgrade
 bin/magento setup:di:compile
 bin/magento cache:flush
 ```
+
+## 🧾 Evidencias
+
+Evidencias módulo healthcheck
+
+![Evidencia CLI](docs/images/healthcheck-cli.png)
+
+![Evidencia REST](docs/images/healthcheck-rest.png)
+
+Evidencias módulo Pricing Adjust
+
+Evidencia valor del producto:
+
+![Evidencia Valor del producto](docs/images/original_product.png)
+
+Configuración de markup
+
+![Evidencia markup](docs/images/pricingadjustment_config.png)
+
+Producto con el plugin ajustando el precio final
+
+![Evidencia precio final](docs/images/product_price_with_plugin.png)
